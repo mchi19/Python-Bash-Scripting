@@ -1,2 +1,2 @@
-# Python-Scripting
+# Python-Bash-Scripting
 Python/Bash Scripting
