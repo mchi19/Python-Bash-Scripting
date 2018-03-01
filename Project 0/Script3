@@ -1,0 +1,15 @@
+#! /bin/bash
+Num_Of_Param=$#
+Param_Values=$@
+X=$Param_Values
+while (( X >= 0 ))
+do
+    if (( (( X % 3 )) == 0  ))
+    then
+        echo "$X"
+    fi
+    ((X=X-1))
+    shift
+done
+
+
